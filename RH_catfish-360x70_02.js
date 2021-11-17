@@ -874,14 +874,14 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CatFish_knob_1000x120_01pngcopy.png", id:"CatFish_knob_1000x120_01pngcopy"},
-		{src:"images/RH_catfish1000x120redline.png", id:"RH_catfish1000x120redline"},
-		{src:"images/RH_catfish1000x120tech01.png", id:"RH_catfish1000x120tech01"},
-		{src:"images/RH_catfish1000x120tech02.png", id:"RH_catfish1000x120tech02"},
-		{src:"images/RH_catfish1000x120tech03.png", id:"RH_catfish1000x120tech03"},
-		{src:"images/RH_catfish1000x120tech04.png", id:"RH_catfish1000x120tech04"},
-		{src:"images/RH_catfish1000x120tech05.png", id:"RH_catfish1000x120tech05"},
-		{src:"images/RH_catfish360x70background.jpg", id:"RH_catfish360x70background"}
+		{src:"CatFish_knob_1000x120_01pngcopy.png", id:"CatFish_knob_1000x120_01pngcopy"},
+		{src:"RH_catfish1000x120redline.png", id:"RH_catfish1000x120redline"},
+		{src:"RH_catfish1000x120tech01.png", id:"RH_catfish1000x120tech01"},
+		{src:"RH_catfish1000x120tech02.png", id:"RH_catfish1000x120tech02"},
+		{src:"RH_catfish1000x120tech03.png", id:"RH_catfish1000x120tech03"},
+		{src:"RH_catfish1000x120tech04.png", id:"RH_catfish1000x120tech04"},
+		{src:"RH_catfish1000x120tech05.png", id:"RH_catfish1000x120tech05"},
+		{src:"RH_catfish360x70background.jpg", id:"RH_catfish360x70background"}
 	],
 	preloads: []
 };
