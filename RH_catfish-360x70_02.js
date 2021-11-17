@@ -263,12 +263,12 @@ p.nominalBounds = new cjs.Rectangle(-44.5,-44,89,88);
 	// Layer_1
 	this.instance = new lib.RH_catfish1000x120tech01();
 	this.instance.parent = this;
-	this.instance.setTransform(-44.5,-56);
+	this.instance.setTransform(68,-56);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-44.5,-56,89,112);
+p.nominalBounds = new cjs.Rectangle(68,-56,89,112);
 
 
 (lib.Tween2 = function(mode,startPosition,loop) {
@@ -277,12 +277,12 @@ p.nominalBounds = new cjs.Rectangle(-44.5,-56,89,112);
 	// Layer_1
 	this.instance = new lib.RH_catfish1000x120tech03();
 	this.instance.parent = this;
-	this.instance.setTransform(-43.5,-51.5);
+	this.instance.setTransform(-142,-52);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-43.5,-51.5,87,103);
+p.nominalBounds = new cjs.Rectangle(-142,-52,87,103);
 
 
 (lib.Tween1 = function(mode,startPosition,loop) {
@@ -307,7 +307,7 @@ p.nominalBounds = new cjs.Rectangle(-23.5,-46,47,92);
 	this.instance.parent = this;
 	this.instance.setTransform(280,22,0.6,0.6);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(274));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(273).to({x:273},0).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 
@@ -344,10 +344,10 @@ p.nominalBounds = new cjs.Rectangle(-23.5,-46,47,92);
 	// tech_04
 	this.instance = new lib.Tween2("synched",0);
 	this.instance.parent = this;
-	this.instance.setTransform(197.45,37.8,0.0103,0.0087,0,0,0,0,5.8);
+	this.instance.setTransform(141.45,37.8,0.0103,0.0087,0,0,0,0,5.8);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(80).to({_off:false},0).to({regX:0.2,regY:0.1,scaleX:0.56,scaleY:0.56},10).to({scaleX:0.52,scaleY:0.52},54).to({regX:0,regY:5.8,scaleX:0.0103,scaleY:0.0087},10).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(74).to({_off:false},0).to({regX:0.2,regY:0.1,scaleX:0.52,scaleY:0.52,x:197.45},10).to({regX:0.3,scaleX:0.56,scaleY:0.56},60).to({regX:0,regY:5.8,scaleX:0.0103,scaleY:0.0087,x:142.7},10).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 
@@ -358,10 +358,10 @@ p.nominalBounds = new cjs.Rectangle(-23.5,-46,47,92);
 	// tech_03
 	this.instance = new lib.Tween3("synched",0);
 	this.instance.parent = this;
-	this.instance.setTransform(141.75,35.9,0.01,0.008,0,0,0,5,0);
+	this.instance.setTransform(191.75,35.9,0.01,0.008,0,0,0,5,0);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(74).to({_off:false},0).to({regX:0.3,regY:0.3,scaleX:0.52,scaleY:0.52},10).to({regX:0.2,regY:0.2,scaleX:0.56,scaleY:0.56},60).to({regX:5,regY:0,scaleX:0.01,scaleY:0.008},10).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(79).to({_off:false},0).to({regX:0.3,regY:0.4,scaleX:0.52,scaleY:0.52,x:141.75},10).to({regX:0.2,regY:0.2,scaleX:0.48,scaleY:0.48,x:145.25},55).to({regX:5,regY:0,scaleX:0.01,scaleY:0.008,x:191.5},10).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 
@@ -572,7 +572,7 @@ p.nominalBounds = new cjs.Rectangle(-23.5,-46,47,92);
 
 
 // stage content:
-(lib.RH_catfish360x70_01 = function(mode,startPosition,loop) {
+(lib.RH_catfish360x70_02 = function(mode,startPosition,loop) {
 if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 	this.___GetDepth___ = function(obj) {
